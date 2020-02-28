@@ -1,0 +1,6 @@
+platformsh_teams.webhook:
+  path: '/api/platform/teams'
+  defaults:
+    _controller: '\Drupal\platformsh_teams\Controller\PlatformshTeamsController::webhook'
+  requirements:
+    _permission: 'access content'

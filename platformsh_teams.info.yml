@@ -1,0 +1,5 @@
+name: Platformsh 2 teams
+type: module
+description: PlatformSH to Teams notification module made by the Reference
+core: 8.x
+package: Custom
